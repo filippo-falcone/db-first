@@ -1,0 +1,14 @@
+Usage Auto
+
+id - INT - PRIMARY_KEY(Di default è NOTNULL - AUTO_INCREMENT - UNIQUE)
+model - VARCHAR(150) - NOTNULL
+manufacter - VARCHAR(100) - NOTNULL
+class - VARCHAR(50) - NULL
+production_year - SMALLINT - NULL
+year_of_registration - SMALLINT - NOTNULL
+engine - VARCHAR(25) - NOTNULL
+km - MEDIUMINT - NOTNULL
+autonomy - FLOAT(4, 2) - NULL
+condition - TEXT - NOTNULL
+price - MEDIUMINT - NOTNULL
+note - TEXT - NULL
