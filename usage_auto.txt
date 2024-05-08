@@ -1,13 +1,13 @@
 Usage Auto
 
 id - INT - PRIMARY_KEY(Di default è NOTNULL - AUTO_INCREMENT - UNIQUE)
-model - VARCHAR(150) - NOTNULL
-manufacter - VARCHAR(100) - NOTNULL
+model - VARCHAR(150) - NOTNULL - INDEX
+manufacter - VARCHAR(100) - NOTNULL - INDEX
 class - VARCHAR(50) - NULL
 production_year - SMALLINT - NULL
-year_of_registration - SMALLINT - NOTNULL
+year_of_registration - SMALLINT - NOTNULL - INDEX
 engine - VARCHAR(25) - NOTNULL
-km - MEDIUMINT - NOTNULL
+km - MEDIUMINT - NOTNULL - INDEX
 autonomy - FLOAT(4, 2) - NULL
 condition - TEXT - NOTNULL
 price - MEDIUMINT - NOTNULL
